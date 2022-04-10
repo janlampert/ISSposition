@@ -1,7 +1,6 @@
 import requests
 import pyperclip
 
-
 def getLocation():
     response = requests.get("http://api.open-notify.org/iss-now.json")
 
@@ -24,6 +23,4 @@ def copyToClipboard():
 def run():
     copyToClipboard()
 
-
-
-
+run()
